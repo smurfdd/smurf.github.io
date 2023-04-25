@@ -1,0 +1,630 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+}
+#ham{
+    display: none;
+}
+.gray {
+    color: #514F4F;
+}
+
+.lol {
+    padding: 20px 80px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+
+}
+
+.logo {
+    cursor: pointer;
+    width: 50px;
+}
+
+#nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+#nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#nav-links ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.3s ease;
+
+}
+
+#nav-links ul li a:hover {
+    color: #f5870b;
+    text-decoration: none;
+
+}
+
+#main {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    align-content: space-between;
+}
+
+#infotext {
+    margin-right: 79px;
+    font-size: 34px;
+
+
+}
+
+
+
+
+#infotext p {
+    margin: 53px 0;
+    font-weight: lighter;
+    font-size: 20px;
+    color: darkgrey;
+}
+
+#btn {
+    font-size: 15px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #f5870b;
+    background-color: transparent;
+    border: 1px solid #f5870b;
+    border-radius: 90px;
+    padding: 8px 25px;
+
+}
+
+
+
+#scroll2 {
+    display: flex;
+    align-items: center;
+
+    color: #514F4F;
+}
+
+#area {
+    padding: 26px 0;
+    color: #fff;
+}
+
+#area h6 {
+    font-size: medium;
+
+}
+
+#btn1 {
+    color: white;
+    background-color: transparent;
+    border: 1px solid#fff;
+    border-radius: 90px;
+    padding: 8px 25px;
+    text-decoration: none;
+
+}
+
+#area ul {
+    padding-bottom: 26px;
+}
+
+#area ul li {
+    font-weight: lighter;
+    list-style: none;
+    display: inline-block;
+
+}
+
+#area ul li h6 {
+    padding-bottom: 26px;
+}
+
+#scrollcontent {
+    text-justify: distribute;
+    margin-left: 440px;
+    padding-right: 250px;
+}
+
+#scrollcontent h4 {
+    font-size: 34px;
+    margin: 30px 0;
+}
+
+#semiorange {
+    position: absolute;
+    background-color: #f5870b;
+    width: 700px;
+    height: 350px;
+    border-radius: 176px;
+    left: -255px;
+    z-index: -1;
+}
+
+#help {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#help span {
+    font-size: 115px;
+    color: #f5870b;
+    animation: change 5s infinite;
+
+}
+
+@keyframes change {
+    0% {
+      color: red;
+    }
+    25% {
+      color: blue;
+    }
+    50% {
+      color: green;
+    }
+    75% {
+      -color: yellow;
+    }
+    100% {
+      color: purple;
+    }
+  }
+
+#grids {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+#attorney {
+    padding: 0 67px;
+}
+
+#attorney i {
+    font-size: 40px;
+    padding: 15px 67px;
+}
+
+#partner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #FDFBFB;
+    height: 282px;
+}
+
+#partner p {
+    padding: 10px 0;
+    color: #4E4E4E;
+    text-;
+}
+
+#partner h3 {
+    padding: 10px 0;
+    color: #69B7A4;
+}
+
+#partner h5 {
+    padding: 10px 0;
+    color: #4E4E4E;
+}
+
+#gridss {}
+
+#dai {
+
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content: center;
+    gap: 25px;
+    animation: mymove 0.8s ease 1;
+
+}
+
+#last1 {
+    padding: 10px;
+    border-radius: 10px;
+
+    text-align: left;
+    font-size: 14px;
+    transition: 0.3s ease-in;
+}
+
+#last1 button {
+    padding: 5px 0;
+    text-decoration: underline;
+    font-weight: 300;
+    background-color: transparent;
+    border: none;
+    color: gray;
+}
+
+#last1:hover {
+    background-color: #2378B7;
+    color: #ffffff;
+    transform:scale(1.5,1.5);
+    cursor: pointer;
+}
+
+.head {
+    text-align: center;
+    color: #f5870b;
+}
+
+#ypartner {
+    font-size: 15px;
+    align-items: center;
+    color: #fff;
+    background-color: #2378B7;
+    height: 282px;
+    padding-top: 65px;
+    position: relative;
+
+}
+
+
+
+#ypartner h3 {
+
+    text-align: center;
+
+}
+
+#list1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#ypartner img {
+    position: absolute;
+    bottom: 220px;
+    right: 10vw;
+
+}
+
+#qoutes {
+    padding: 20px 482px 5px;
+}
+
+#service {
+    padding: 0 482px;
+}
+
+#testi {
+    font-size: 15px;
+    font-weight: 100;
+    padding: 20px 80px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer {
+    padding: 20px 80px;
+    background-color: #292929;
+    height: 350px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    
+
+
+}
+
+footer ul {
+    list-style: none;
+    
+}
+
+#footercontainer {
+    
+    display: grid;
+    grid-auto-flow: column;
+    color: #fff;
+
+}
+#footercontainer li{
+    
+    transition: 0.3s ease-in;
+
+}
+
+#footercontainer li:hover {
+    
+    display: grid;
+    grid-auto-flow: column;
+    transform: translateX(10px);
+    color: #f5870b;
+
+}
+#copyright{
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    justify-self: center;
+    margin-top: 300px;
+}
+
+footer h4 {
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 600px){
+    #header {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+        z-index: -1;
+        position: sticky;
+        top: 0;
+        left: 0;
+        position: relative;
+    
+    }
+  
+    
+
+   
+   .logo{
+        width: 20;
+        float: left;
+    }
+    #nav-links{
+        display: none;
+    }
+
+    
+    #heroImg {
+        float: left;
+        max-width: 300px;
+    }
+   
+    #main {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        align-content: space-between;
+        position: relative;
+        height: 400px;
+    }
+    
+    #infotext {
+        margin-right: 15px;
+        font-size: 15px;
+    
+    
+    }
+    #infotext h4 {
+        margin-right: 15px;
+        font-size: 10px;
+    
+    
+    }
+    
+    
+    
+    
+    #infotext p {
+        margin: 20px 0;
+        font-weight: lighter;
+        font-size: 10px;
+        color: darkgrey;
+    }
+    
+    #btn {
+        font-size: 10px;
+        font-weight: lighter;
+        text-decoration: none;
+        color: #f5870b;
+        background-color: transparent;
+        border: 1px solid #f5870b;
+        border-radius: 15px;
+        padding: 8px 25px;
+        position: absolute;
+        right: 95px;
+        top: 200px;
+    
+    }   
+
+    #scroll2 {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    
+        color: #514F4F;
+    }
+
+    #area, #semiorange {
+        display: none;
+    }
+
+    #scrollcontent {
+        text-align: center;
+        text-justify: distribute;
+        margin-left: 20px;
+        padding-right: 20px;
+    }
+    
+    #scrollcontent h4 {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    #quest{
+        padding: 0;
+        margin: 0;
+    }
+
+    #grids {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+    
+    
+    }
+    
+    #attorney {
+        margin: 0;
+        padding: 20px;
+    }
+    
+    #attorney i {
+        font-size: 40px;
+        padding: 15px 67px;
+    }
+    
+    #dai {
+
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        gap: 25px;
+        animation: mymove 0.8s ease 1;
+    
+    }
+
+    #last1{
+        text-align: center;
+    }
+
+    #ypartner {
+        font-size: 15px;
+        align-items: center;
+        color: #fff;
+        background-color: #2378B7;
+        height: 282px;
+        padding-top: 20px;
+        position: relative;
+        z-index: 1;
+    
+    }
+    
+    
+    
+    #ypartner h3 {
+    
+        text-align: center;
+    
+    }
+    
+    #list1 {
+        display: flex;
+        align-items: baseline;
+        
+        justify-content: space-around;
+        gap: 50px;
+        font-size: 10px;
+    
+    }
+    #ypartner img {
+        position: absolute;
+        bottom: 220px;
+        right: 10vw;
+        z-index: -1;
+    
+    }
+    #container{
+        display: grid;
+        padding-top: 25px;
+    }
+    #qoutes {
+        text-align: center;
+        padding: 20px 0 10px 0;
+    }
+    
+    #service {
+        text-align: center;
+        padding: 5px 0 10px 0;
+    }
+    
+    #testi {
+        
+        font-size: 15px;
+        font-weight: 100;
+        padding: 20px 80px;
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-rows: auto;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    footer {
+        padding: 20px 20px;
+        background-color: #292929;
+        height: 180px;
+        display: grid;
+        grid-auto-flow: column;
+        align-items: center;
+    
+    
+    }
+    
+    footer ul {
+        list-style: none;
+    }
+    
+    #footercontainer {
+        display: grid;
+        grid-auto-flow: column;
+        color: #fff;
+    
+    }
+    
+    footer h4 {
+        padding-bottom: 10px;
+    }
+    
+    #footercontainer {
+        display: grid;
+        grid-auto-flow: column;
+        color: #fff;
+        font-size: 10px;
+    
+    }
+
+    #copyright{
+        color: rgb(255, 255, 255);
+        font-size: 5px;
+        position: absolute;
+        justify-self: center;
+        margin-top: 150px;
+        
+    }
+}
